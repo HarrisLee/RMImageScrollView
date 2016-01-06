@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4490BBF51C3D0C81008FBDAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4490BBF41C3D0C81008FBDAC /* main.m */; };
+		4490BBF81C3D0C81008FBDAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4490BBF71C3D0C81008FBDAC /* AppDelegate.m */; };
+		4490BBFB1C3D0C81008FBDAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4490BBFA1C3D0C81008FBDAC /* ViewController.m */; };
+		4490BBFE1C3D0C81008FBDAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4490BBFC1C3D0C81008FBDAC /* Main.storyboard */; };
+		4490BC001C3D0C81008FBDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4490BBFF1C3D0C81008FBDAC /* Assets.xcassets */; };
+		4490BC031C3D0C81008FBDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4490BC011C3D0C81008FBDAC /* LaunchScreen.storyboard */; };
+		4490BC0D1C3D0CA7008FBDAC /* RMImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4490BC0C1C3D0CA7008FBDAC /* RMImageScrollView.m */; };
+		4490BC0F1C3D14BA008FBDAC /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4490BC0E1C3D14BA008FBDAC /* 1@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4490BBF01C3D0C81008FBDAC /* RMImageScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMImageScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4490BBF41C3D0C81008FBDAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4490BBF61C3D0C81008FBDAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4490BBF71C3D0C81008FBDAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4490BBF91C3D0C81008FBDAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4490BBFA1C3D0C81008FBDAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4490BBFD1C3D0C81008FBDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4490BBFF1C3D0C81008FBDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4490BC021C3D0C81008FBDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4490BC041C3D0C81008FBDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4490BC0B1C3D0CA7008FBDAC /* RMImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMImageScrollView.h; sourceTree = "<group>"; };
+		4490BC0C1C3D0CA7008FBDAC /* RMImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMImageScrollView.m; sourceTree = "<group>"; };
+		4490BC0E1C3D14BA008FBDAC /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4490BBED1C3D0C81008FBDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4490BBE71C3D0C81008FBDAC = {
+			isa = PBXGroup;
+			children = (
+				4490BBF21C3D0C81008FBDAC /* RMImageScrollView */,
+				4490BBF11C3D0C81008FBDAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4490BBF11C3D0C81008FBDAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4490BBF01C3D0C81008FBDAC /* RMImageScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4490BBF21C3D0C81008FBDAC /* RMImageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				4490BC0A1C3D0C9A008FBDAC /* RMImageScrollView */,
+				4490BBF61C3D0C81008FBDAC /* AppDelegate.h */,
+				4490BBF71C3D0C81008FBDAC /* AppDelegate.m */,
+				4490BBF91C3D0C81008FBDAC /* ViewController.h */,
+				4490BBFA1C3D0C81008FBDAC /* ViewController.m */,
+				4490BC0E1C3D14BA008FBDAC /* 1@2x.png */,
+				4490BBFC1C3D0C81008FBDAC /* Main.storyboard */,
+				4490BBFF1C3D0C81008FBDAC /* Assets.xcassets */,
+				4490BC011C3D0C81008FBDAC /* LaunchScreen.storyboard */,
+				4490BC041C3D0C81008FBDAC /* Info.plist */,
+				4490BBF31C3D0C81008FBDAC /* Supporting Files */,
+			);
+			path = RMImageScrollView;
+			sourceTree = "<group>";
+		};
+		4490BBF31C3D0C81008FBDAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4490BBF41C3D0C81008FBDAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4490BC0A1C3D0C9A008FBDAC /* RMImageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				4490BC0B1C3D0CA7008FBDAC /* RMImageScrollView.h */,
+				4490BC0C1C3D0CA7008FBDAC /* RMImageScrollView.m */,
+			);
+			path = RMImageScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4490BBEF1C3D0C81008FBDAC /* RMImageScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4490BC071C3D0C81008FBDAC /* Build configuration list for PBXNativeTarget "RMImageScrollView" */;
+			buildPhases = (
+				4490BBEC1C3D0C81008FBDAC /* Sources */,
+				4490BBED1C3D0C81008FBDAC /* Frameworks */,
+				4490BBEE1C3D0C81008FBDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMImageScrollView;
+			productName = RMImageScrollView;
+			productReference = 4490BBF01C3D0C81008FBDAC /* RMImageScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4490BBE81C3D0C81008FBDAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JianRongCao;
+				TargetAttributes = {
+					4490BBEF1C3D0C81008FBDAC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4UC89CVV3Y;
+					};
+				};
+			};
+			buildConfigurationList = 4490BBEB1C3D0C81008FBDAC /* Build configuration list for PBXProject "RMImageScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4490BBE71C3D0C81008FBDAC;
+			productRefGroup = 4490BBF11C3D0C81008FBDAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4490BBEF1C3D0C81008FBDAC /* RMImageScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4490BBEE1C3D0C81008FBDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4490BC031C3D0C81008FBDAC /* LaunchScreen.storyboard in Resources */,
+				4490BC001C3D0C81008FBDAC /* Assets.xcassets in Resources */,
+				4490BBFE1C3D0C81008FBDAC /* Main.storyboard in Resources */,
+				4490BC0F1C3D14BA008FBDAC /* 1@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4490BBEC1C3D0C81008FBDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4490BBFB1C3D0C81008FBDAC /* ViewController.m in Sources */,
+				4490BBF81C3D0C81008FBDAC /* AppDelegate.m in Sources */,
+				4490BC0D1C3D0CA7008FBDAC /* RMImageScrollView.m in Sources */,
+				4490BBF51C3D0C81008FBDAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4490BBFC1C3D0C81008FBDAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4490BBFD1C3D0C81008FBDAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4490BC011C3D0C81008FBDAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4490BC021C3D0C81008FBDAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4490BC051C3D0C81008FBDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4490BC061C3D0C81008FBDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4490BC081C3D0C81008FBDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RMImageScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suning.RMImageScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4490BC091C3D0C81008FBDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RMImageScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suning.RMImageScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4490BBEB1C3D0C81008FBDAC /* Build configuration list for PBXProject "RMImageScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4490BC051C3D0C81008FBDAC /* Debug */,
+				4490BC061C3D0C81008FBDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4490BC071C3D0C81008FBDAC /* Build configuration list for PBXNativeTarget "RMImageScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4490BC081C3D0C81008FBDAC /* Debug */,
+				4490BC091C3D0C81008FBDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4490BBE81C3D0C81008FBDAC /* Project object */;
+}
